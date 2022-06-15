@@ -8,7 +8,8 @@ cipher_text = '1011101101001011'
 
 keytable = key_to_table(key)
 
-
+print("Message : ", message)
+print("Key : ", key)
 encrypted_text = encrpyt(message, keytable)
 
 if cipher_text == encrypted_text:

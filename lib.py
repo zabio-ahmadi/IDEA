@@ -133,7 +133,7 @@ def key_to_inverse_table(keytable):
 
     key_inverse_table.append([k4_1, k4_2, k4_3, k4_4, k4_5, k4_6])
 
-    # round 5
+    # round 5 (half round)
     k5_1 = inverse_mult_modulo(keytable[0][0], (2**4) + 1)
     k5_2 = inverse_add_modulo(keytable[0][1], 2 ** 4)
     k5_3 = inverse_add_modulo(keytable[0][2], 2 ** 4)
